@@ -1,0 +1,13 @@
+name: 'skip-ci'
+description: 'Helps to skip steps in GitHub action in pull requests'
+inputs:
+  skip-phrase:
+    description: 'If found in commit of PR then returns true'
+    required: true
+    default: '[skip-ci]'
+outputs:
+  skip-ci:
+    description: 'True if your commit had the phrase'    
+runs:
+  using: 'node12'
+  main: 'index.js'

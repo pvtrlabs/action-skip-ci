@@ -1,0 +1,26 @@
+{
+  "name": "action-skip-ci",
+  "version": "1.0.0",
+  "description": "This action sets `skip-ci` output variable to `true` in case the last commit in your pull request finds `skip-phrase` phrase in your commit message.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmomont/action-skip-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmomont/action-skip-ci/issues"
+  },
+  "homepage": "https://github.com/mmomont/action-skip-ci#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0",
+    "@octokit/auth-action": "^1.2.2",
+    "@octokit/rest": "^18.0.5"
+  }
+}
