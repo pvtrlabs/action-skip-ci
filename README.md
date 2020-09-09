@@ -27,7 +27,7 @@ The output variable will be set to `"true"` if phrase is found in commit message
 ## Example usage
 
 ```yaml
-uses: mmomont/action-skip-ci@v1
+uses: pvtrlabs/action-skip-ci@v1
 with:
   skip-phrase: '[skip-ci]'
 env:
@@ -54,7 +54,7 @@ jobs:
     steps:
       - name: Check whether to skip CI
         id: skip-workflow
-        uses: mmomont/action-skip-ci@v1
+        uses: pvtrlabs/action-skip-ci@v1
         with:
           skip-phrase: "[skip-ci]"
 
