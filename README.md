@@ -27,7 +27,7 @@ The output variable will be set to `"true"` if phrase is found in commit message
 ## Example usage
 
 ```yaml
-uses: pvtrlabs/action-skip-ci@v1
+uses: pvtrlabs/action-skip-ci@v1.0.1
 with:
   skip-phrase: '[skip-ci]'
 env:
